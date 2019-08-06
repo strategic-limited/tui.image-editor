@@ -130,23 +130,6 @@ export default ({locale, iconStyle: {normal, active}}) => (`
         <li class="tui-image-editor-partition">
             <div></div>
         </li>
-        <li id="tie-icon-add-button">
-            <div class="tui-image-editor-button" style="margin:0">
-                <div>
-                    <input type="file" accept="image/*" id="tie-icon-image-file">
-                    <svg class="svg_ic-submenu">
-                        <use xlink:href="${normal.path}#${normal.name}-ic-icon-load" class="normal"/>
-                        <use xlink:href="${active.path}#${active.name}-ic-icon-load" class="active"/>
-                    </svg>
-                </div>
-                <label>
-                    ${locale.localize('Custom icon')}
-                </label>
-            </div>
-        </li>
-        <li class="tui-image-editor-partition">
-            <div></div>
-        </li>
         <li>
             <div id="tie-icon-color" title="${locale.localize('Color')}"></div>
         </li>
