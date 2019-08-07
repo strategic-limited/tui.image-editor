@@ -9,7 +9,6 @@ import Crop from './ui/crop';
 import Flip from './ui/flip';
 import Rotate from './ui/rotate';
 import Text from './ui/text';
-import Mask from './ui/mask';
 import Icon from './ui/icon';
 import Draw from './ui/draw';
 import Filter from './ui/filter';
@@ -21,7 +20,6 @@ const SUB_UI_COMPONENT = {
     Flip,
     Rotate,
     Text,
-    Mask,
     Icon,
     Draw,
     Filter
@@ -236,7 +234,7 @@ class Ui {
             },
             locale: {},
             menuIconPath: '',
-            menu: ['crop', 'flip', 'rotate', 'draw', 'shape', 'icon', 'text', 'mask', 'filter'],
+            menu: ['crop', 'flip', 'rotate', 'draw', 'shape', 'icon', 'text', 'filter'],
             initMenu: '',
             uiSize: {
                 width: '100%',
